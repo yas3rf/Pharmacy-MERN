@@ -1,0 +1,18 @@
+@media print {
+  body * {
+    visibility: hidden; /* Hide everything by default */
+  }
+
+  #invoice,
+  #invoice * {
+    visibility: visible; /* Show only the invoice */
+  }
+
+  #invoice {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0; /* Adjust to fit on the printed page */
+  }
+}

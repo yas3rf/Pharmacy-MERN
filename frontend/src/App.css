@@ -1,0 +1,98 @@
+/* Dashboard styles */
+.dashboard {
+  padding: 20px;
+  background-color: #eeee;
+  width: 100vw;
+}
+.dashboard h2 {
+  text-align: center;
+}
+.dashboard-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 300px;
+  overflow: hidden;
+}
+.scrollable-section {
+  overflow-y: auto;
+
+  height: 300px;
+  padding-bottom: 50px;
+}
+
+.dashboard-section h3 {
+  margin-bottom: 10px;
+}
+
+/* Table css */
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse; /* Removes double borders between cells */
+}
+
+.inventory-table table,
+th,
+td {
+  border: 1px solid #000; /* Black border for table, header, and cells */
+}
+
+.inventory-table th,
+td {
+  padding: 10px; /* Padding inside the cells */
+  text-align: center; /* Centers the content horizontally */
+  vertical-align: middle; /* Centers the content vertically */
+}
+
+.inventory-table th {
+  background-color: #939185; /* Light gray background for the header */
+}
+
+#list li a {
+  color: #eeeeee;
+}
+#list li a:hover {
+  background-color: #7fa1c3;
+}
+
+.app-container {
+  display: flex;
+}
+
+.side-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+}
+
+.component-container {
+  margin-left: 168px;
+  margin-right: 0;
+}
+
+#sidebar {
+  background-color: #6482ad;
+}
+
+.product-container {
+  background-color: #eeee;
+  padding: 20px;
+}
+
+.form-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
